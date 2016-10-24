@@ -13,6 +13,19 @@
 		190744101DBD0AC600CA2D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1907440E1DBD0AC600CA2D87 /* Main.storyboard */; };
 		190744121DBD0AC600CA2D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190744111DBD0AC600CA2D87 /* Assets.xcassets */; };
 		190744151DBD0AC600CA2D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190744131DBD0AC600CA2D87 /* LaunchScreen.storyboard */; };
+		197194C41DBDA67D009F03C0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194A71DBDA67D009F03C0 /* AFHTTPSessionManager.m */; };
+		197194C51DBDA67D009F03C0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194AA1DBDA67D009F03C0 /* AFNetworkReachabilityManager.m */; };
+		197194C61DBDA67D009F03C0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194AC1DBDA67D009F03C0 /* AFSecurityPolicy.m */; };
+		197194C71DBDA67D009F03C0 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194AE1DBDA67D009F03C0 /* AFURLRequestSerialization.m */; };
+		197194C81DBDA67D009F03C0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194B01DBDA67D009F03C0 /* AFURLResponseSerialization.m */; };
+		197194C91DBDA67D009F03C0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194B21DBDA67D009F03C0 /* AFURLSessionManager.m */; };
+		197194CA1DBDA67D009F03C0 /* AppsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194B41DBDA67D009F03C0 /* AppsModel.m */; };
+		197194CB1DBDA67D009F03C0 /* DownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194B71DBDA67D009F03C0 /* DownloaderOperation.m */; };
+		197194CC1DBDA67D009F03C0 /* DownloaderOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194B91DBDA67D009F03C0 /* DownloaderOperationManager.m */; };
+		197194CD1DBDA67D009F03C0 /* NSString+path.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194BB1DBDA67D009F03C0 /* NSString+path.m */; };
+		197194CE1DBDA67D009F03C0 /* UIImageView+WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194BD1DBDA67D009F03C0 /* UIImageView+WebImage.m */; };
+		197194CF1DBDA67D009F03C0 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194C01DBDA67D009F03C0 /* NSObject+YYModel.m */; };
+		197194D01DBDA67D009F03C0 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 197194C21DBDA67D009F03C0 /* YYClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,34 @@
 		190744111DBD0AC600CA2D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190744141DBD0AC600CA2D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190744161DBD0AC600CA2D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197194A61DBDA67D009F03C0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		197194A71DBDA67D009F03C0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		197194A81DBDA67D009F03C0 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		197194A91DBDA67D009F03C0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		197194AA1DBDA67D009F03C0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		197194AB1DBDA67D009F03C0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		197194AC1DBDA67D009F03C0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		197194AD1DBDA67D009F03C0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		197194AE1DBDA67D009F03C0 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		197194AF1DBDA67D009F03C0 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		197194B01DBDA67D009F03C0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		197194B11DBDA67D009F03C0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		197194B21DBDA67D009F03C0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		197194B31DBDA67D009F03C0 /* AppsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsModel.h; sourceTree = "<group>"; };
+		197194B41DBDA67D009F03C0 /* AppsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsModel.m; sourceTree = "<group>"; };
+		197194B61DBDA67D009F03C0 /* DownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderOperation.h; sourceTree = "<group>"; };
+		197194B71DBDA67D009F03C0 /* DownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderOperation.m; sourceTree = "<group>"; };
+		197194B81DBDA67D009F03C0 /* DownloaderOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderOperationManager.h; sourceTree = "<group>"; };
+		197194B91DBDA67D009F03C0 /* DownloaderOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderOperationManager.m; sourceTree = "<group>"; };
+		197194BA1DBDA67D009F03C0 /* NSString+path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
+		197194BB1DBDA67D009F03C0 /* NSString+path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
+		197194BC1DBDA67D009F03C0 /* UIImageView+WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebImage.h"; sourceTree = "<group>"; };
+		197194BD1DBDA67D009F03C0 /* UIImageView+WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebImage.m"; sourceTree = "<group>"; };
+		197194BF1DBDA67D009F03C0 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		197194C01DBDA67D009F03C0 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		197194C11DBDA67D009F03C0 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		197194C21DBDA67D009F03C0 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		197194C31DBDA67D009F03C0 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +99,13 @@
 		190744041DBD0AC600CA2D87 /* YR-WebImage */ = {
 			isa = PBXGroup;
 			children = (
+				197194A51DBDA67D009F03C0 /* AFNetworking */,
+				197194B51DBDA67D009F03C0 /* GoodWebImage */,
+				197194BE1DBDA67D009F03C0 /* YYModel */,
 				190744081DBD0AC600CA2D87 /* AppDelegate.h */,
 				190744091DBD0AC600CA2D87 /* AppDelegate.m */,
+				197194B31DBDA67D009F03C0 /* AppsModel.h */,
+				197194B41DBDA67D009F03C0 /* AppsModel.m */,
 				1907440B1DBD0AC600CA2D87 /* ViewController.h */,
 				1907440C1DBD0AC600CA2D87 /* ViewController.m */,
 				1907440E1DBD0AC600CA2D87 /* Main.storyboard */,
@@ -77,6 +123,53 @@
 				190744061DBD0AC600CA2D87 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		197194A51DBDA67D009F03C0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				197194A61DBDA67D009F03C0 /* AFHTTPSessionManager.h */,
+				197194A71DBDA67D009F03C0 /* AFHTTPSessionManager.m */,
+				197194A81DBDA67D009F03C0 /* AFNetworking.h */,
+				197194A91DBDA67D009F03C0 /* AFNetworkReachabilityManager.h */,
+				197194AA1DBDA67D009F03C0 /* AFNetworkReachabilityManager.m */,
+				197194AB1DBDA67D009F03C0 /* AFSecurityPolicy.h */,
+				197194AC1DBDA67D009F03C0 /* AFSecurityPolicy.m */,
+				197194AD1DBDA67D009F03C0 /* AFURLRequestSerialization.h */,
+				197194AE1DBDA67D009F03C0 /* AFURLRequestSerialization.m */,
+				197194AF1DBDA67D009F03C0 /* AFURLResponseSerialization.h */,
+				197194B01DBDA67D009F03C0 /* AFURLResponseSerialization.m */,
+				197194B11DBDA67D009F03C0 /* AFURLSessionManager.h */,
+				197194B21DBDA67D009F03C0 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		197194B51DBDA67D009F03C0 /* GoodWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				197194B61DBDA67D009F03C0 /* DownloaderOperation.h */,
+				197194B71DBDA67D009F03C0 /* DownloaderOperation.m */,
+				197194B81DBDA67D009F03C0 /* DownloaderOperationManager.h */,
+				197194B91DBDA67D009F03C0 /* DownloaderOperationManager.m */,
+				197194BA1DBDA67D009F03C0 /* NSString+path.h */,
+				197194BB1DBDA67D009F03C0 /* NSString+path.m */,
+				197194BC1DBDA67D009F03C0 /* UIImageView+WebImage.h */,
+				197194BD1DBDA67D009F03C0 /* UIImageView+WebImage.m */,
+			);
+			path = GoodWebImage;
+			sourceTree = "<group>";
+		};
+		197194BE1DBDA67D009F03C0 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				197194BF1DBDA67D009F03C0 /* NSObject+YYModel.h */,
+				197194C01DBDA67D009F03C0 /* NSObject+YYModel.m */,
+				197194C11DBDA67D009F03C0 /* YYClassInfo.h */,
+				197194C21DBDA67D009F03C0 /* YYClassInfo.m */,
+				197194C31DBDA67D009F03C0 /* YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +244,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197194C91DBDA67D009F03C0 /* AFURLSessionManager.m in Sources */,
+				197194CA1DBDA67D009F03C0 /* AppsModel.m in Sources */,
+				197194CC1DBDA67D009F03C0 /* DownloaderOperationManager.m in Sources */,
 				1907440D1DBD0AC600CA2D87 /* ViewController.m in Sources */,
 				1907440A1DBD0AC600CA2D87 /* AppDelegate.m in Sources */,
+				197194C51DBDA67D009F03C0 /* AFNetworkReachabilityManager.m in Sources */,
+				197194CF1DBDA67D009F03C0 /* NSObject+YYModel.m in Sources */,
+				197194CB1DBDA67D009F03C0 /* DownloaderOperation.m in Sources */,
 				190744071DBD0AC600CA2D87 /* main.m in Sources */,
+				197194CD1DBDA67D009F03C0 /* NSString+path.m in Sources */,
+				197194C61DBDA67D009F03C0 /* AFSecurityPolicy.m in Sources */,
+				197194C71DBDA67D009F03C0 /* AFURLRequestSerialization.m in Sources */,
+				197194D01DBDA67D009F03C0 /* YYClassInfo.m in Sources */,
+				197194CE1DBDA67D009F03C0 /* UIImageView+WebImage.m in Sources */,
+				197194C81DBDA67D009F03C0 /* AFURLResponseSerialization.m in Sources */,
+				197194C41DBDA67D009F03C0 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +418,7 @@
 				1907441B1DBD0AC600CA2D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
