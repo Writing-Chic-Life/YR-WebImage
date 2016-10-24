@@ -48,9 +48,27 @@
         
         //实例化图片缓存池
         self.imageCache = [[NSMutableDictionary alloc] init];
+        
+        //当第一次使用单例时就注册了内存警告通知
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cleanMemoryCache) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
 
     }
     return self;
+}
+
+- (void)cleanMemoryCache
+{
+    [self.imageCache removeAllObjects];
+    
+    [self.OPCache removeAllObjects];
+    
+    [self.queue cancelAllOperations];
+}
+
+//当APP退出时把通知移除
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)downloaderOperationWithURLString:(NSString *)URLString successBlock:(void (^)(UIImage *))successBlock

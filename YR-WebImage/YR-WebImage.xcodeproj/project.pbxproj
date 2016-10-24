@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				197194A51DBDA67D009F03C0 /* AFNetworking */,
-				197194B51DBDA67D009F03C0 /* GoodWebImage */,
 				197194BE1DBDA67D009F03C0 /* YYModel */,
+				197194B51DBDA67D009F03C0 /* GoodWebImage */,
 				190744081DBD0AC600CA2D87 /* AppDelegate.h */,
 				190744091DBD0AC600CA2D87 /* AppDelegate.m */,
 				197194B31DBDA67D009F03C0 /* AppsModel.h */,

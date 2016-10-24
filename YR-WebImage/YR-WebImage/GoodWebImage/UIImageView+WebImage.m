@@ -42,7 +42,8 @@
         
         self.image = image;
     }];
-
 }
+
+
 
 @end
